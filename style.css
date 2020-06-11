@@ -1,0 +1,53 @@
+body{
+	background-image: url(https://zicxa.com/hinh-anh/wp-content/uploads/2019/07/T%E1%BB%95ng-h%E1%BB%A3p-c%C3%A1c-h%C3%ACnh-%E1%BA%A3nh-background-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-19.jpg);
+	background-size: cover;
+	height: 100vh;	
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "roboto", sans-serif;
+
+}
+form{
+	position: relative;
+	background-color: #706f70;
+	padding: 20px 20px;
+    border-radius: 7px;
+}
+form img{
+	height: 60px;
+	position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding: 2px;
+    background-color: black
+}
+form h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+form input{
+	display: block;
+	margin: 1rem 0;
+	padding: 8px 14px;
+	font-size: 15px;
+	border-radius: 1rem;
+	border:none;
+	background-color: #888c8e70;
+	outline: none;
+}
+form button{
+	width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    display: block;
+    padding: 8px 16px;
+    margin: 12px 0px 15px 0px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 550;
+
+}
